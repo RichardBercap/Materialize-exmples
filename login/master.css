@@ -1,0 +1,30 @@
+body{
+  background: #bbdefb;
+  overflow: hidden;
+}
+.text-center{
+  text-align: center;
+}
+.icon i{
+  border-radius: 50%;
+}
+.form-login button[type=submit]{
+  margin-top: 30px;
+  width: 100%;
+}
+#login-section{
+  min-height: 100vh;
+}
+#image-section{
+  background:
+      linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("http://cdn77.orangesmile.com/common/img_cities_w680/la-paz--693412-42.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+
+}
